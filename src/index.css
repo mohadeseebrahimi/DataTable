@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(241, 241, 235);
+    
+}
+section{
+    padding: 3rem 0;
+}
+.section-info{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 3rem;
+}
+
+.section-desc{
+    color: gray;
+}
+
+/* font */
+@font-face{
+    font-family: popins;
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+
